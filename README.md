@@ -117,5 +117,7 @@ the change to cope with these files.
 
 Committed to github in Feb 2016 from an ancient backup. The main !RunImage file seems to be a tokenized BBC BASIC file, not a text file, so is not friendly to modern editors - nor can I verify that the code still works. If anyone is interested and can get it working on a RiscPC or Raspberry Pi, then I'd be interested in a plain text version!
 
+Matt Godbolt's detokenizer at http://xania.org/200711/bbc-basic-v-format seems to be able to read and convert the !RunImage (many thanks!), though I can't currently verify the output is 100% correct!
+
 Also added Apache License. This supersedes any original license conditions in the !Help file.
 
