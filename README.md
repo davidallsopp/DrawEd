@@ -119,6 +119,3 @@ Committed to github in Feb 2016 from an ancient backup. The main !RunImage file 
 
 Also added Apache License. This supersedes any original license conditions in the !Help file.
 
-----------------------------------------------------------------------------
-
-David Allsopp  17/01/2000
