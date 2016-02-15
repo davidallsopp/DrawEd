@@ -1,17 +1,15 @@
 
-                     ----------------------------------------
-                                    DrawEd
+#DrawEd
 
-                      Help for Version 2.42 : (17 Jan 2000)
+##Help for Version 2.42 : (17 Jan 2000)
 
-                             © 2000 David Allsopp
+##© 2000 David Allsopp
 
-                     ----------------------------------------
 
 This application is FreeWare and may be freely distributed provided :-
 
-  *  No charge is made other than to cover the cost of the medium.
-  *  All files, including this !Help file, are included unaltered.
+* No charge is made other than to cover the cost of the medium.
+* All files, including this !Help file, are included unaltered.
 
 This program is supplied 'as is' with no guarantee of its suitability for
 any purpose. I will not be held responsible for any loss of data or other damage occurring through the use or misuse of this program.
@@ -21,17 +19,17 @@ any purpose. I will not be held responsible for any loss of data or other damage
 DrawEd is a simple multitasking application for the processing of Drawfiles
 in ways not possible using Draw or DrawPlus 
 
-FEATURES:
+#FEATURES:
 
- - Search-and-Replace of colours
- - Lightening and Darkening by any amount
- - Conversion of colour to greyscale 
- - Conversion of colour to monochrome with adjustable threshold
- - Inversion of colours
+* Search-and-Replace of colours
+* Lightening and Darkening by any amount
+* Conversion of colour to greyscale 
+* Conversion of colour to monochrome with adjustable threshold
+* Inversion of colours
 
- - Can operate seperately on lines, fills and text.
+* Can operate seperately on lines, fills and text.
 
-USE OF DRAWED:
+#USE OF DRAWED:
 
 Click on the icon-bar icon to open the DrawEd window.
 
@@ -47,20 +45,20 @@ a different order then use the Reprocess facility. (see below)
 DrawEd is intended to be used alongside Draw or DrawPlus; these
 applications should be used for viewing the results.
 
-SEND TO DRAW:
+#SEND TO DRAW:
 
 If "Send to Draw" is ticked in the icon bar menu, DrawEd will load the
 processed file automatically into Draw or DrawPlus if they are running.
 
-REPROCESS
+#REPROCESS
 
 DrawEd works by making a copy of your original file, then changing this
 copy. Once you have made one change to your file, you can click REPROCESS to
 make further changes - just set the options and click REPROCESS.
 
-                          ***OPTIONS***
+#OPTIONS
 
-SEARCH & REPLACE  
+##SEARCH & REPLACE  
 
 This option simply searches for a colour in the original file and replaces
 it with a new one. Enter the R G B values of the colour to search for, and
@@ -73,9 +71,9 @@ You can search for only lines, or fills, or text of a particular colour, or
 any combination of these. DrawEd will give a warning if you don't have any
 of these set when you try to process a file.
 
-LIGHTEN , DARKEN
+##LIGHTEN , DARKEN
 
-- Pretty obvious really! The Lighten option is particularly useful for
+Pretty obvious really! The Lighten option is particularly useful for
 printing out files, which come out too dark with some printers. For clip
 art it is often useful to leave outlines black, and just lighten the fills.
 You will have to experiment with your printer for the ideal lightening value - try 20-40% to start with. 
@@ -83,7 +81,7 @@ You will have to experiment with your printer for the ideal lightening value - t
 Very high values of Lighten or Darken will obviously leave you with an
 almost completely white or black image.
 
-256 GREYSCALE
+##256 GREYSCALE
 
 This simply converts a colour file to a greyscale file. Colour Correction
 may be used - this attempts to compensate for the apparently different
@@ -91,7 +89,7 @@ brightness of different colours, so that the grey image looks more true to
 the original colour image. The greyscale option can be used to predict what a
 colour file will look like when printed in monochrome. 
 
-MONO 
+##MONO 
 
 This converts a colour (or greyscale) file to black and white, and can
 sometimes make an image more striking - try it and see. Altering
@@ -99,7 +97,7 @@ the Threshold value determines how bright something has to be to be made
 white rather than black.  (A high value turns most things black, a low value
 turns most things white)  Colour correction may be used.
 
-INVERT
+##INVERT
 
 This reverses the R G B components of colours. The effect on a colour file
 will usually be interesting, but not very useful. Inverting monochrome
@@ -108,18 +106,20 @@ image can look good in a design.
 
 ----------------------------------------------------------------------------
 
-Notes:
+#Notes:
 
-1) Text in Draw can have a 'background' colour setting, which is used to
+1. Text in Draw can have a 'background' colour setting, which is used to
 determine what colours to use for antialiasing. If you alter the text colour
 or the colour of objects behind the text then the antialiasing may look
 odd on screen, as DrawEd doesn't alter the background setting to match.
 The file will print normally.
-
-2) This version of DrawEd does not operate on Text Areas, because the
+2. This version of DrawEd does not operate on Text Areas, because the
 colours are stored in a different way to other objects.
 
 ----------------------------------------------------------------------------
+
+#Changes
+
 Changes from version 2.41 (12/7/96!!) - Force first byte of colour to be zero
 rather than assuming it to be so.  According to the drawfile spec I have, this
 byte should be zero, reserved for future expansion. However, someone has sent me
