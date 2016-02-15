@@ -1,0 +1,4 @@
+Set DrawEd$Dir <Obey$Dir>
+IconSprites <DrawEd$Dir>.!Sprites
+WimpSlot -min 64K -max 64K
+Run <Obey$Dir>.!RunImage 
