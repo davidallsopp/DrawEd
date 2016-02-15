@@ -126,6 +126,8 @@ byte should be zero, reserved for future expansion. However, someone has sent me
 a drawfile with the same version number in which this byte is non-zero; hence
 the change to cope with these files.
 
+Committed to github in Feb 2016 from an ancient backup. The main !RunImage file seems to be a tokenized BBC BASIC file, not a text file, so is not friendly to modern editors - nor can I verify that the code still works. If anyone is interested and can get it working on a RiscPC or Raspberry Pi, then I'd be interested in a plain text version!
+
 ----------------------------------------------------------------------------
 
 David Allsopp  17/01/2000
