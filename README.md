@@ -3,17 +3,6 @@
 
 ##Help for Version 2.42 : (17 Jan 2000)
 
-##© 2000 David Allsopp
-
-
-This application is FreeWare and may be freely distributed provided :-
-
-* No charge is made other than to cover the cost of the medium.
-* All files, including this !Help file, are included unaltered.
-
-This program is supplied 'as is' with no guarantee of its suitability for
-any purpose. I will not be held responsible for any loss of data or other damage occurring through the use or misuse of this program.
-
 ------
 
 DrawEd is a simple multitasking application for the processing of Drawfiles
@@ -127,6 +116,8 @@ a drawfile with the same version number in which this byte is non-zero; hence
 the change to cope with these files.
 
 Committed to github in Feb 2016 from an ancient backup. The main !RunImage file seems to be a tokenized BBC BASIC file, not a text file, so is not friendly to modern editors - nor can I verify that the code still works. If anyone is interested and can get it working on a RiscPC or Raspberry Pi, then I'd be interested in a plain text version!
+
+Also added Apache License. This supersedes any original license conditions in the !Help file.
 
 ----------------------------------------------------------------------------
 
